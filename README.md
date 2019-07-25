@@ -15,6 +15,11 @@ If the python package is hosted on Github, you can install directly from Github
 
 ```sh
 pip install git+https://github.com/blitzm-systems/packet-grid-python-server-sdk.git
+
+```
+or
+```sh
+pipenv install -e git+https://github.com/blitzm-systems/packet-grid-python-server-sdk.git#egg=blitzm_packetgrid_sdk
 ```
 
 ```python
